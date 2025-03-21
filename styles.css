@@ -91,7 +91,7 @@ button {
 
 .system-msg{
     width: 750px;
-    min-height: 130px;
+    min-height: fit-content;
     background-color: #262626;
     border: 2px solid #606060;
     border-radius: 8px;
@@ -130,7 +130,7 @@ button {
 }
 
 .msg{
-    padding: 5px 10px;
+    padding: 10px 10px;
     height: auto;
 
     font-weight: 300;
@@ -200,7 +200,7 @@ button {
 }
 
 
-.click-btn{
+.Btn-container{
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,7 @@ button {
     gap: 10px;
 }
 
-.click-btn button{
+.Btn-container button{
     height: auto;
     width: auto;
     
@@ -227,12 +227,12 @@ button {
     padding: 7px 27px;
 }
 
-.click-btn svg{
+.Btn-container svg{
     height: 80px;
     width: 80px;
 }
 
-.click-btn span{
+.Btn-container span{
     position: absolute;
     top: 40%;
 }
